@@ -1,0 +1,150 @@
+
+.main-wrap {
+	margin: 40px;
+}
+
+.button-size {
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+
+h3 {
+	font-weight: bold;
+}
+.btn-default {
+	height: 40px;
+	width: 40px;
+	background-color: #ECECEC;
+	border-radius: 50%;
+}
+
+.center-btn-text {
+	/*center button text*/
+    margin: 0 auto;
+    padding: 0;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.sizes {
+	height: 40px;
+	width: 40px;
+	background-color: lightgrey;
+	border-radius: 50%;
+}
+
+.text {
+	padding-top: 10px;
+}
+
+.btn-info {
+	background-color: #EBEFF2;
+	color: black;
+	border: 0;
+	outline: 0;
+	font-weight: bold;
+	border: 1px solid lightgrey;
+}
+
+.btn-star button:hover {
+	background-color: #EBEFF2;
+	color: black;
+	opacity: 0.7;
+}
+
+.btn-light {
+	font-weight: bold;
+	background-color: #FEFEFE;
+	color: black;
+	border: 1px solid lightgrey;
+}
+
+#fade-text {
+	text-align: center;
+	color: grey;
+}
+
+
+
+.product-heading {
+	display: flex;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+div.option-select {
+	position: absolute;
+	right: 10px;
+}
+#orders {
+	height: 40px;
+	width: 150px;
+	font-size: 20px;
+}
+
+#order-desc {
+	height: 38px;
+}
+hr {
+	width: 10%;
+	border: 2px solid gold;
+}
+.card {
+	font-family: arial;
+	margin-bottom: 40px;
+}
+
+.card-product {
+	position: relative;
+}
+
+.top-right {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: black;
+	color: white;
+	font-size: 12px;
+	width: 43%;
+	height: 28px;
+	padding-top: 5px;
+}
+
+.card h4 {
+	font-weight: bold;
+	color: #818183
+}
+/*this remove the border around the thumbnail image*/
+.img-thumbnail {
+	border: 0;
+}
+
+.price {
+	font-size: 30px;
+	font-weight: bold;
+}
+.card span {
+	font-size: 20px;
+	font-weight: normal;
+}
+.price-fade {
+	font-size: 25px;
+	color: #C5C5C5;
+	padding-top: 0;
+}
+
+.card button {
+	border: none,
+	outline: 0;
+	padding: 12px;
+	color: #FEFEFE;
+	background-color: #000;
+	text-align: center;
+	cursor: pointer;
+	width: 100%;
+	font-size: 16px;
+}
+.card button:hover {
+	opacity: 0.7;
+}
+

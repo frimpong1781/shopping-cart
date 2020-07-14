@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Shopping Cart</title>
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/styles.css">
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="main-wrap">
+			<div class="row">
+
+				<div class="col-md-2">
+					<h3>Sizes:</h3>
+
+					<div class="row">
+						<div class="button-size">
+							<div class="col-md-3">
+								<input class="btn btn-default center-btn-text" type="button" value="XS">
+							</div>
+
+							<div class="col-md-3">
+								<input class="btn btn-default center-btn-text" type="button" value="S">
+							</div>
+
+							<div class="col-md-3">
+								<input class="btn btn-default center-btn-text" type="button" value="M">
+							</div>
+
+							<div class="col-md-3">
+								<input class="btn btn-default center-btn-text" type="button" value="ML">
+							</div>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="button-size">
+							<div class="col-md-3">
+								<input class="btn btn-default center-btn-text" type="button" value="L">
+							</div>
+
+							<div class="col-md-3">
+								<input class="btn btn-default center-btn-text" type="button" value="XL">
+							</div>
+
+							<div class="col-md-3">
+								<input class="btn btn-default center-btn-text" type="button" value="XXL">
+							</div>
+						</div>
+					</div>
+
+					<div class="button-size">
+						<p id="fade-text">Leave a star on Github if this repository was useful :)</p>
+
+						<div class="text-center btn-star">
+						<button type="button" class="btn btn-info">
+	      					<span class="glyphicon glyphicon-star" aria-hidden="true"></span> Star
+	    				</button>
+	    				<button type="button" class="btn btn-light">678</button>
+	    				</div>
+					</div>
+				</div>
+
+
+	<!-- ......................Right Side......................... -->
+
+				<div class="col-md-10">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="product-heading">
+								<div>
+									<p>16 Products(s) found</p>
+								</div>
+								<div class ="option-select">
+									<label for="cars">Order by</label>
+									<select id="orders" name="orders">
+									   <option value="select">Select</option>
+									   <option value="saab">Type</option>
+									   <option value="fiat">Size</option>
+									   <option value="audi">Price</option>
+									</select>
+								</div>
+							</div>
+						
+						<div class="col-md-3">
+							<div class="card card-product">
+								<img src="./images/headphones.jpg" alt="" class="img-thumbnail img-responsive">
+								<div class="top-right text-center">Free shipping</div>
+								<div id="order-desc">
+									<h4 class="text-center">Boss Headphones 700 best for ...</h4>
+								</div>
+								<hr>
+								<p class="price text-center"><span>$</span> 19<span>.45</span></p>
+								<p class="price-fade text-center">or 9 x$1.45</p>
+								<p><button>Add to Cart</button></p>
+							</div>
+						</div>
+
+						<div class="col-md-3">
+							<div class="card card-product">
+								<img src="./images/H&M.jpg" alt="" class="img-thumbnail img-responsive">
+								<div class="top-right text-center">Free shipping</div>
+								<div id="order-desc">
+									<h4 class="text-center">H&M Polo Shirt Slim Fit</h4>
+								</div>
+								<hr>
+								<p class="price text-center"><span>$</span> 29<span>.45</span></p>
+								<p class="price-fade text-center">or 5 x$5.89</p>
+								<p><button>Add to Cart</button></p>
+							</div>
+						</div>
+
+						<div class="col-md-3">
+							<div class="card card-product">
+								<img src="./images/shorts.jpg" alt="" class="img-thumbnail">
+								<div class="top-right text-center">Free shipping</div>
+								<div id="order-desc">
+									<h4 class="text-center">The north face shorts</h4>
+								</div>
+								<hr>
+								<p class="price text-center"><span>$</span> 14<span>.90</span></p>
+								<p class="price-fade text-center">or 7 x$2.13</p>
+								<p><button>Add to Cart</button></p>
+							</div>
+						</div>
+
+						<div class="col-md-3">
+							<div class="card card-product">
+								<img src="./images/IKEA.jpg" alt="" class="img-thumbnail">
+								<div class="top-right text-center">Free shipping</div>
+								<div id="order-desc">
+									<h4 class="text-center">IKEA Poana Swivel Chair</h4>
+								</div>
+								<hr>
+								<p class="price text-center"><span>$</span> 299<span>.00</span></p>
+								<p class="price-fade text-center">or 50 x$5.98</p>
+								<p><button>Add to Cart</button></p>
+							</div>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-md-3">
+							<div class="card card-product">
+								<img src="./images/bliss.png" alt="" class="img-thumbnail img-responsive">
+								<div class="top-right text-center">Free shipping</div>
+								<div id="order-desc">
+									<h4 class="text-center">Bright Idea Serum</h4>
+								</div>
+								<hr>
+								<p class="price text-center"><span>$</span> 19<span>.45</span></p>
+								<p class="price-fade text-center">or 9 x$1.45</p>
+								<p><button>Add to Cart</button></p>
+							</div>
+						</div>
+
+						<div class="col-md-3">
+							<div class="card card-product">
+								<img src="./images/fab-foaming.png" alt="" class="img-thumbnail img-responsive">
+								<div class="top-right text-center">Free shipping</div>
+								<div id="order-desc">
+									<h4 class="text-center">Fab Foaming - Cleaning & Exfolator</h4>
+								</div>
+								<hr>
+								<p class="price text-center"><span>$</span> 29<span>.45</span></p>
+								<p class="price-fade text-center">or 5 x$5.89</p>
+								<p><button>Add to Cart</button></p>
+							</div>
+						</div>
+
+						<div class="col-md-3">
+							<div class="card card-product">
+								<img src="./images/bright-idea.png" alt="" class="img-thumbnail">
+								<div class="top-right text-center">Free shipping</div>
+								<div id="order-desc">
+									<h4 class="text-center">Bright Idea Moisturizer</h4>
+								</div>
+								<hr>
+								<p class="price text-center"><span>$</span> 11<span>.60</span></p>
+								<p class="price-fade text-center">or 3 x$3.13</p>
+								<p><button>Add to Cart</button></p>
+							</div>
+						</div>
+
+						<div class="col-md-3">
+							<div class="card card-product">
+								<img src="./images/drench-quench.png" alt="" class="img-thumbnail">
+								<div class="top-right text-center">Free shipping</div>
+								<div id="order-desc">
+									<h4 class="text-center">Drench & Quench - for All Skin Types</h4>
+								</div>
+								<hr>
+								<p class="price text-center"><span>$</span> 47<span>.20</span></p>
+								<p class="price-fade text-center">or 9 x$5.98</p>
+								<p><button>Add to Cart</button></p>
+							</div>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-md-3">
+							<div class="card card-product">
+								<img src="./images/makeup-wipes.png" alt="" class="img-thumbnail img-responsive">
+								<div class="top-right text-center">Free shipping</div>
+								<div id="order-desc">
+									<h4 class="text-center">Makeup Melt Wipes</h4>
+								</div>
+								<hr>
+								<p class="price text-center"><span>$</span> 16<span>.45</span></p>
+								<p class="price-fade text-center">or 7 x$2.45</p>
+								<p><button>Add to Cart</button></p>
+							</div>
+						</div>
+
+						<div class="col-md-3">
+							<div class="card card-product">
+								<img src="./images/makeup-cleanser.png" alt="" class="img-thumbnail img-responsive">
+								<div class="top-right text-center">Free shipping</div>
+								<div id="order-desc">
+									<h4 class="text-center">Makeup melt Cleanser</h4>
+								</div>
+								<hr>
+								<p class="price text-center"><span>$</span> 22<span>.25</span></p>
+								<p class="price-fade text-center">or 4 x$5.79</p>
+								<p><button>Add to Cart</button></p>
+							</div>
+						</div>
+
+						<div class="col-md-3">
+							<div class="card card-product">
+								<img src="./images/stay-cay.png" alt="" class="img-thumbnail">
+								<div class="top-right text-center">Free shipping</div>
+								<div id="order-desc">
+									<h4 class="text-center">Stay-Cay Glow Mask</h4>
+								</div>
+								<hr>
+								<p class="price text-center"><span>$</span> 10<span>.99</span></p>
+								<p class="price-fade text-center">or 5 x$2.13</p>
+								<p><button>Add to Cart</button></p>
+							</div>
+						</div>
+
+						<div class="col-md-3">
+							<div class="card card-product">
+								<img src="./images/soap.png" alt="" class="img-thumbnail">
+								<div class="top-right text-center">Free shipping</div>
+								<div id="order-desc">
+									<h4 class="text-center">Minty Scrub Soap</h4>
+								</div>
+								<hr>
+								<p class="price text-center"><span>$</span> 5<span>.00</span></p>
+								<p class="price-fade text-center">or 1 x$5.98</p>
+								<p><button>Add to Cart</button></p>
+							</div>
+						</div>
+					</div>
+
+				</div>	
+			</div>
+		</div>
+	</div>
+
+
+	<script type="text/javascript" src="./js/jquery.js"></script>
+	<script type="text/javascript" src="./js/bootstrap.min.js"></script>
+</body>
+</html>
